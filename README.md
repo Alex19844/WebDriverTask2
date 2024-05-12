@@ -25,7 +25,7 @@ Automate the following script:
 
  The "WebDriverTask2" project has been created. SeleniumTests.cs file has been added for tests.
 
- There is a problem with bypassing the Selenium website security protection. So there are only 10 commits available per day.
+ I faced a problem with bypassing the Selenium website security protection. So there are only 10 commits available per day.
  First I had to use an already created commit for testing. Then I used the ExpressVPN to successfully test my code.
  
  All functionality is implemented.
