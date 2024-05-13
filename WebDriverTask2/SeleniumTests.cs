@@ -38,11 +38,11 @@ namespace WebDriverTask2
             driver.Navigate().GoToUrl(url);
 
             // Delay for pop-up window to show
-            System.Threading.Thread.Sleep(2000);
+            //System.Threading.Thread.Sleep(2000);
 
             // Find the 'Agree' button on the pop-up window and click on it (if using a VPN).
-            IWebElement agreeButton = driver.FindElement(By.CssSelector("button.css-47sehv"));
-            agreeButton.Click();
+            //IWebElement agreeButton = driver.FindElement(By.CssSelector("button.css-47sehv"));
+            //agreeButton.Click();
 
             // Login to website - couldn't bypass Cloudflare security
             //IWebElement loginLink = driver.FindElement(By.CssSelector("a.btn-sign.sign-in"));
